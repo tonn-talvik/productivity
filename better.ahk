@@ -55,3 +55,9 @@ CapsLock::Send, {Blind}{BackSpace}
 ;#<^>!h::Send, #{Left}
 ;#<^>!n::Send, #{Right}
 
+
+
+
+
+; https://superuser.com/questions/1000678/disable-winspace-keyboard-layout-switch-in-windows-10
+#space::
