@@ -5,7 +5,7 @@ Personal preferences and hints, how to setup Arch.
 ## Topics
 
 - [Basic IO](basic-io.md)
-- [Some rice](riceing.md)
+- [Some rice](rice.md)
 
 ## Musings, thougths, things
 
