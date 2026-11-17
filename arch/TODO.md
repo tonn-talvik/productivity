@@ -10,4 +10,5 @@
   - completion n-depth
 - ssh from win, 
 - lazygit latte theme?
+- vi Esc delay, lazygit delay
 - ...
