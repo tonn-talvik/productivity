@@ -6,3 +6,8 @@ Personal preferences and hints, how to setup Arch.
 
 - [Basic IO](basic-io.md)
 - [Some rice](riceing.md)
+
+## Musings, thougths, things
+
+- [To Do](TODO.md)
+
