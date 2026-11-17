@@ -12,4 +12,8 @@
 - ssh from win, 
 - lazygit latte theme?
 - vi Esc delay, lazygit delay
+- markdown
+  - glow, cannot follow links
+  - md-tui, Rust and can follow links, needs themeing?
+- Rust seems cool, can we get rid of Python, maybe Perl too?
 - ...
