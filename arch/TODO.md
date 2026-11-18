@@ -1,6 +1,8 @@
 # To Do
 
 - starship prompt in git?
+- gpg
+- pass
 - emailing
 - is yazi useful; for what?
 - ll ordering of hidden files
