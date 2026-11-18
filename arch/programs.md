@@ -28,7 +28,7 @@ if-shell '[ "$TERM" = "linux" ]' {
 
     set -g status-style "bg=colour15,fg=colour7"
     set -g status-left "#[bg=colour15,fg=colour0,bold] #H #S #[default]"
-    set -g status-right "#[bg=colour15,fg=colour0,bold]%d.%m.%Y #[bg=colour15,fg=colour6,bold]%H:%M #[default]"
+    set -g status-right "#[bg=colour15,fg=colour0,bold]%a %d.%m.%Y #[bg=colour15,fg=colour6,bold]%H:%M #[default]"
 
     # Window tabs
     set -g window-status-style "bg=colour15,fg=colour8"
