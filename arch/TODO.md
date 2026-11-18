@@ -1,8 +1,6 @@
 # To Do
 
 - starship prompt in git?
-- tmux status @top?
-  - or try 24px font to fit FullHD resolution
 - tmux status weekday?
 - emailing
 - is yazi useful; for what?

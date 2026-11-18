@@ -5,9 +5,9 @@ Personal preferences and hints, how to setup Arch.
 ## Topics
 
 - [Basic IO](basic-io.md)
-- [Some rice](rice.md)
+- [Programs](programs.md)
 
-## Musings, thougths, things
+## Musings, thoughts, things
 
 - [To Do](TODO.md)
 

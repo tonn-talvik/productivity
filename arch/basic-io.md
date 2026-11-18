@@ -45,7 +45,10 @@ May need to use dumpkeys to get full self-contained file for initramfs.
 ### `/etc/vconsole.conf`
 
 Note that `ter-v32n` font comes from `terminus-font` package, or could use `eurlatgr` font. 
-Font can be tested with `setfont ter-v32n`.
+Font can be tested with `setfont ter-v32n`. 
+
+Slightly smaller `ter-v24b` font fits better on FullHD resolution, i.e. no half-line at the bottom,
+but might be just hard to read. 
 
 ```conf
 KEYMAP=et-dvorak
@@ -76,7 +79,44 @@ LANT=et_EE.UTF-8
 LC_MESSAGES=en_US.UTF-8
 ```
 
-## Rebuild initramfs
+## Look and feel
 
-`mkinitcpio -P`
+### Keybindings
+
+Combination of vi keybindings and (GNU) Readline/Emacs mode.
+ 
+### Theme
+
+Prefer light themes, such as [catppuccin-latte](https://github.com/catppuccin/catppuccin).
+For Virtual Console:
+
+```conf
+vt.default_red=239,210,64,223,30,234,23,76,172,210,64,223,30,234,23,92
+vt.default_grn=241,15,160,142,102,118,146,79,176,15,160,142,102,118,146,95
+vt.default_blu=245,57,43,29,245,203,153,105,190,57,43,29,245,203,153,119
+```
+
+## Apply settings during boot
+
+When using EFISTUB Boot Entry: 
+
+```sh
+# inspect current entry
+efibootmgr -u
+lsblk -f
+
+# find `--disk`, `--part`, `EXISTING_PARAMS`
+findmnt -n -o SOURCE /boot
+cat /proc/cmdline
+
+# create new
+efibootmgr --create \
+  --disk /dev/sda1 \
+  --part 1 \
+  --label "Arch Latte" \
+  --loader /vmlinuz-linux \
+  --unicode '<EXISTING_PARAMS> vt.default_red=... vt.default_grn=... vt.default_blu' 
+```
+
+Finally rebuild initramfs `mkinitcpio -P`
 
