@@ -1,7 +1,7 @@
 # To Do
 
-- starship prompt in git?
 - emailing
+- LUKS
 - is yazi useful; for what?
 - ll ordering of hidden files
 - zsh investigations
