@@ -1,14 +1,13 @@
 # To Do
 
 - starship prompt in git?
-- gpg
-- pass
 - emailing
 - is yazi useful; for what?
 - ll ordering of hidden files
 - zsh investigations
   - completion n-depth
 - ssh from win, 
+- git
 - lazygit latte theme?
 - vi Esc delay, lazygit delay
 - markdown

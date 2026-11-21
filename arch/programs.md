@@ -1,11 +1,10 @@
 # Programs
  
 - [tmux](./programs/tmux.md)
+- [gpg & pass](./programs/gpg-pass.md)
+
 - bat
 - ripgrep
-
-- pass
-- gpg ?
 
 - yazi
 - starship
