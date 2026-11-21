@@ -2,6 +2,7 @@
  
 - [tmux](./programs/tmux.md)
 - [gpg & pass](./programs/gpg-pass.md)
+- [mbsync](./programs/mbsync.md)
 
 - bat
 - ripgrep
