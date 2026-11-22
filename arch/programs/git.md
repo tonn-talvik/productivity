@@ -12,4 +12,16 @@
 
 ## lazygit
 
-A TUI for git.
+A TUI for git. Colours need adjusting for VConsole.
+Note that this might conflict with Wayland/pts later on.
+
+### `~/.config/lazygit/config.yml`
+
+```yml
+gui:
+  theme:
+    selectedLineFgColor:
+      - black
+    selectedLineBgColor:
+      - blue
+```

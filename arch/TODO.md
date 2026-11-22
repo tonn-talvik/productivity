@@ -20,5 +20,6 @@
 - can we get rid of Python
   - some tools relying on Python: git-filter-repo
   - python pip env? 
+  - tmuxp
 - maybe get rid of Perl too?
 - ...
