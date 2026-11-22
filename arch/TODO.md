@@ -7,7 +7,6 @@
 - zsh investigations
   - completion n-depth
 - ssh from win, 
-- git
 - lazygit latte theme?
 - vi Esc delay, lazygit delay
 - markdown

@@ -12,7 +12,7 @@ Set Google Account app password `pass add email/gmail-app-pass`.
 # ========================================
 IMAPAccount gmail
 Host imap.gmail.com
-User REDACTED@gmail.com
+User <redacted>@gmail.com
 PassCmd "pass email/gmail-app-pass"
 TLSType IMAPS
 CertificateFile /etc/ssl/certs/ca-certificates.crt
