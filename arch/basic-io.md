@@ -87,6 +87,8 @@ Combination of vi keybindings and (GNU) Readline/Emacs mode.
  
 ### Theme
 
+> Coffee should be dark, terminal should be light.
+
 Prefer light themes, such as [catppuccin-latte](https://github.com/catppuccin/catppuccin).
 For Virtual Console:
 

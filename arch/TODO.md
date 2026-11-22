@@ -4,13 +4,19 @@
 - LUKS
 - is yazi useful; for what?
 - ll ordering of hidden files
+- bashing
 - zsh investigations
   - completion n-depth
-- ssh from win, 
-- lazygit latte theme?
+- ssh from win (pwsh, putty, ...) and other linux
+- lazygit latte theme (highlight seems off)?
 - vi Esc delay, lazygit delay
 - markdown
   - glow, cannot follow links
   - md-tui, Rust and can follow links, needs themeing?
-- Rust seems cool, can we get rid of Python, maybe Perl too?
+- Rust seems cool
+  - are all those binaries huge self-contained worlds?
+- can we get rid of Python
+  - some tools relying on Python: git-filter-repo
+  - python pip env? 
+- maybe get rid of Perl too?
 - ...
