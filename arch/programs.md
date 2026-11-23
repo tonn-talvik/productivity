@@ -5,6 +5,8 @@
 - [mbsync](./programs/mbsync.md)
 - [git & lazygit](./programs/git.md)
 
+- w3m
+
 - bat
 - ripgrep
 
