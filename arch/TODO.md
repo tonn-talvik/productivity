@@ -2,7 +2,10 @@
 
 - emailing
   - pager, shortcuts
+    - neomuttrc doc needs update
+  - change dir config
   - w3m, lynx in mailcap
+    - links inside neomutt+w3m, urllinks?
 - LUKS
 - is yazi useful; for what?
 - ll ordering of hidden files
@@ -14,7 +17,7 @@
   - putty: black background, mostly fine, blue text on black is hardly to read (lazygit)
   - Win Terminal: Catppuccin Latte scheme, pwsh 7.7, dark gray is too light, for light gray text and white is dark gray instead (tmux status)
   - Ubuntu terminal: some nerdfont glyphs missing by default, colors of Ubuntu theme, tmux weird latte statusbar?,  
-- lazygit latte theme (highlight seems off)?
+- lazygit latte theme (highlight seems off when staging added/not-added)?
 - vi Esc delay, lazygit delay
 - markdown
   - glow, cannot follow links
