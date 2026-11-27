@@ -1,11 +1,13 @@
 # To Do
 
+- fbgrab
 - emailing
   - pager, shortcuts
     - neomuttrc doc needs update
   - change dir config
   - w3m, lynx in mailcap
     - links inside neomutt+w3m, urllinks?
+- feedreader (newsboad, newsraft, feedr, bulletty, eilmeldung, ...)
 - LUKS
 - is yazi useful; for what?
 - ll ordering of hidden files
